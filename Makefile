@@ -35,7 +35,7 @@
 # The COOL_DIR variable should be set to the root directory of the
 # distribution (the directory where this Makefile is).
 #
-COOL_DIR=/usr/class/cs143/cool
+COOL_DIR=$(PWD)
 
 # SCRIPT_SHELL should be set to the full
 # pathname of an `sh'-compatible shell
@@ -69,8 +69,9 @@ AR= ar
 # create a new archive, and RANLIB should be a program that builds an
 # archive's symbol table.
 
+# RANLIB changed from `gar -qs` to `ar -qs`
 ARCHIVE_NEW = -cr
-RANLIB = gar -qs
+RANLIB = ar -qs
 
 # If your archiver is gar, you don't need to change the following settings.
 # If your archiver
