@@ -1,11 +1,11 @@
 
 ASSN = 3J
 CLASS= cs143
-CLASSDIR= /usr/class/cs143/cool
+CLASSDIR= /Users/jingapore/Documents/repos/aiken_compilers
 LIB= -lfl
-AR= gar
+AR= ar
 ARCHIVE_NEW= -cr
-RANLIB= gar -qs
+RANLIB= ar -qs
 
 SRC= cool.cup good.cl bad.cl README
 CSRC= \

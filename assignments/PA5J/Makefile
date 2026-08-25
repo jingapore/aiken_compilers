@@ -1,7 +1,7 @@
 
 ASSN = 5J
 CLASS= cs143
-CLASSDIR= /usr/class/cs143/cool
+CLASSDIR= /Users/jingapore/Documents/repos/aiken_compilers
 
 SRC= CgenClassTable.java CgenNode.java CgenSupport.java TreeConstants.java cool-tree.java IntSymbol.java StringSymbol.java BoolConst.java example.cl README
 CSRC = \

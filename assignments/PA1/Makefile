@@ -1,7 +1,7 @@
 
 ASSN = 1
 CLASS= cs143
-CLASSDIR= /usr/class/cs143/cool
+CLASSDIR= /Users/jingapore/Documents/repos/aiken_compilers
 SRC= stack.cl README 
 LSRC= Makefile atoi.cl stack.test
 
