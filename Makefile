@@ -54,12 +54,14 @@ CLASS=cs143
 LIB=-lfl
 
 # GMAKE should be the pathname of gmake, the GNU make utility.  
+# We use MacOS's out-of-box make
 #
-GMAKE=gmake
+GMAKE=make
 
 # AR should name an archiver (preferably gar, the GNU ar).  
+# We use MacOS's out-of-box ar
 #
-AR= gar
+AR= ar
 
 #
 # If you are using gar, you don't need to change the following settings.
