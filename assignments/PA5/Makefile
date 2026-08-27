@@ -5,7 +5,7 @@ CLASSDIR= /Users/jingapore/Documents/repos/aiken_compilers
 LIB= -lfl
 AR= ar
 ARCHIVE_NEW= -cr
-RANLIB= ar -qs
+RANLIB= ranlib
 
 SRC= cgen.cc cgen.h cgen_supp.cc cool-tree.h cool-tree.handcode.h emit.h example.cl README
 CSRC= cgen-phase.cc utilities.cc stringtab.cc dumptype.cc tree.cc cool-tree.cc ast-lex.cc ast-parse.cc handle_flags.cc 

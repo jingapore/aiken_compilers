@@ -1,5 +1,5 @@
 #!/bin/sh
-arch=`echo i686 `
+arch=`echo arm64`
 
 PRG=$0
 progname=`/usr/bin/basename $0`

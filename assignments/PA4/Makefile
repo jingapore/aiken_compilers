@@ -5,7 +5,7 @@ CLASSDIR= /Users/jingapore/Documents/repos/aiken_compilers
 LIB= -lfl
 AR= ar
 ARCHIVE_NEW= -cr
-RANLIB= ar -qs
+RANLIB= ranlib
 
 SRC= semant.cc semant.h cool-tree.h cool-tree.handcode.h good.cl bad.cl README
 CSRC= semant-phase.cc symtab_example.cc  handle_flags.cc  ast-lex.cc ast-parse.cc utilities.cc stringtab.cc dumptype.cc tree.cc cool-tree.cc

@@ -5,7 +5,7 @@ CLASSDIR= /Users/jingapore/Documents/repos/aiken_compilers
 LIB= -lfl
 AR= ar
 ARCHIVE_NEW= -cr
-RANLIB= ar -qs
+RANLIB= ranlib
 
 SRC= cool.cup good.cl bad.cl README
 CSRC= \

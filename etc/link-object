@@ -41,7 +41,7 @@ done
 COOL_INST=`/usr/bin/dirname "$PRG"`/..
 
 num=$1
-arch=`echo i686 `
+arch=`echo arm64`
 shift
 for f
 do
