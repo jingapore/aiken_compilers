@@ -34,8 +34,9 @@
 
 # The COOL_DIR variable should be set to the root directory of the
 # distribution (the directory where this Makefile is).
-#
-COOL_DIR=$(PWD)
+# Why use CURDIR and not PWD?
+# https://stackoverflow.com/questions/52437728/what-is-the-difference-between-pwd-and-curdir
+COOL_DIR=$(CURDIR)
 
 # SCRIPT_SHELL should be set to the full
 # pathname of an `sh'-compatible shell
@@ -71,7 +72,7 @@ AR= ar
 
 # RANLIB changed from `gar -qs` to `ar -qs`
 ARCHIVE_NEW = -cr
-RANLIB = ar -qs
+RANLIB = ranlib
 
 # If your archiver is gar, you don't need to change the following settings.
 # If your archiver
@@ -99,7 +100,7 @@ ASSIGNMENTS = PA1 PA2 PA2J PA3 PA3J PA4 PA4J PA5 PA5J
 # this line (if it it hasn't already been instantiated to your particular
 # architecture).
 #
-ARCH= echo i686 
+ARCH= echo arm64
 
 # If you only want to install Cool on one architecture, comment out the preceding line
 # and uncomment the one appropriate line below.
