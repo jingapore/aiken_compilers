@@ -2,7 +2,7 @@
 ASSN = 2
 CLASS= cs143
 CLASSDIR= /Users/jingapore/Documents/repos/aiken_compilers
-LIB= -lfl
+LIB= -ll
 
 SRC= cool.flex test.cl README 
 CSRC= lextest.cc utilities.cc stringtab.cc handle_flags.cc

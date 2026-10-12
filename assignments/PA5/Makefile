@@ -2,7 +2,7 @@
 ASSN = 5
 CLASS= cs143
 CLASSDIR= /Users/jingapore/Documents/repos/aiken_compilers
-LIB= -lfl
+LIB= -ll
 AR= ar
 ARCHIVE_NEW= -cr
 RANLIB= ranlib
