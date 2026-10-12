@@ -52,7 +52,8 @@ CLASS=cs143
 # The standard release only needs -lfl.  You might need to give the full
 # pathname for "fl".
 #
-LIB=-lfl
+# we change from '-lfl' to '-ll' because of MacOS's flex
+LIB=-ll
 
 # GMAKE should be the pathname of gmake, the GNU make utility.  
 # We use MacOS's out-of-box make
